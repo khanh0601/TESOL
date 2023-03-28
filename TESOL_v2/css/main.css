@@ -474,7 +474,8 @@ a {
 
 .page-3 .box-video .video {
   position: relative;
-  max-height: 700px;
+height: 700px;
+width: 100%;
 }
 
 .page-3 .border-video-1 {
@@ -765,9 +766,10 @@ a {
 .page-1 .info-prof,
 .page-1 .text-carousel {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 34px;
+  font-style: italic;
 }
 
 .page-1 .carousel-control-next {
@@ -814,7 +816,7 @@ a {
 
 @media only screen and (max-width: 992px) {
   .page-1 .carousel-text {
-    padding-top: 75%;
+    padding-top: 50%;
     padding-left: 15px;
     padding-right: 15px;
     zoom: 70%;
@@ -885,4 +887,10 @@ a {
 .__btn-collapse{
   margin-top: 20px;
     margin-left: -67px;
+}
+.__max-h75{
+  max-height: 750px;
+}
+.__max-h962{
+  max-height: 962px;
 }
